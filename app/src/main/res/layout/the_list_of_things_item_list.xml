@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:dividerHeight="7px"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/toDoNameTextView"
+        android:paddingLeft="25dp"
+        android:layout_width="393dp"
+        android:layout_height="58dp"
+        android:text="TO DO ITEM"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+
+</androidx.cardview.widget.CardView>
